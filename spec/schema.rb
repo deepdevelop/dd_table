@@ -6,7 +6,7 @@ ActiveRecord::Schema.define do
     t.string :name
     t.integer :age
 
-    t.timestamps
+    t.timestamps null: false
   end
 
 end
