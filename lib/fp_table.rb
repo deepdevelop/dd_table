@@ -1,5 +1,5 @@
 require "fp_table/version"
 
-module FpTable
-  # Your code goes here...
+module FPTable
+  autoload :TableBuilder, "fp_table/table_builder"
 end
