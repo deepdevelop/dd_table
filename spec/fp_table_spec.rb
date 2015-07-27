@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe FpTable do
+describe FPTable do
   it 'has a version number' do
-    expect(FpTable::VERSION).not_to be nil
+    expect(FPTable::VERSION).not_to be nil
   end
 
   it 'does something useful' do

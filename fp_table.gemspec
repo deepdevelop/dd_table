@@ -5,13 +5,13 @@ require 'fp_table/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "fp_table"
-  spec.version       = FpTable::VERSION
+  spec.version       = FPTable::VERSION
   spec.authors       = ["greatghoul"]
   spec.email         = ["greatghoul@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Simple table builder for rails.}
+  spec.description   = %q{Simple table builder for rails.}
+  spec.homepage      = "https://github.com/FellowPlusDev/fp_table_rails"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
@@ -28,4 +28,10 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.9"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency('rspec', '~> 3.0')
+  spec.add_development_dependency('factory_girl')
+  spec.add_development_dependency "activerecord"
+  spec.add_development_dependency "sqlite3"
+
+  spec.add_dependency('actionpack')
 end
