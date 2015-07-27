@@ -1,6 +1,5 @@
 require 'active_record'
 require 'factory_girl'
-require 'action_view'
 
 ActiveRecord::Base.establish_connection adapter: "sqlite3",
                                         database: ":memory:"
