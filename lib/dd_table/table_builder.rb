@@ -1,4 +1,4 @@
-module FPTable
+module DDTable
   class TableBuilder
     include ActionView::Helpers::TagHelper
     include ActionView::Helpers::TextHelper

@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fp_table/version'
+require 'dd_table/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "fp_table"
-  spec.version       = FPTable::VERSION
+  spec.name          = "dd_table"
+  spec.version       = DDTable::VERSION
   spec.authors       = ["greatghoul"]
   spec.email         = ["greatghoul@gmail.com"]
 
   spec.summary       = %q{Simple table builder for rails.}
   spec.description   = %q{Simple table builder for rails.}
-  spec.homepage      = "https://github.com/FellowPlusDev/fp_table_rails"
+  spec.homepage      = "https://github.com/deepdevelop/dd_table_rails"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.

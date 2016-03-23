@@ -9,7 +9,7 @@ require File.dirname(__FILE__) + '/models.rb'
 require File.dirname(__FILE__) + '/factories.rb'
 
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'fp_table'
+require 'dd_table'
 
 RSpec.configure do |config|
   config.include FactoryGirl::Syntax::Methods

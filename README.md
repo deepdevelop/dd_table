@@ -1,4 +1,4 @@
-# FellowPlus Table Builder
+# DeepDevelop Table Builder
 
 ```
 <%= table_for Article, @articles do |t| %>
