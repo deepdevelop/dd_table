@@ -1,6 +1,10 @@
 # DeepDevelop Table Builder
 
 ```
+gem 'fp_table', git: 'https://github.com/FellowPlusDev/fp_table_rails.git'
+```
+
+```
 <%= table_for Article, @articles do |t| %>
   <%= t.column :title %>
   <%= t.column 'actions' do |article| %>
