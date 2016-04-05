@@ -1,7 +1,7 @@
 # DeepDevelop Table Builder
 
 ```
-gem 'fp_table', git: 'https://github.com/FellowPlusDev/fp_table_rails.git'
+gem 'dd_table', github: 'deepdevelop/dd_table_rails'
 ```
 
 ```
